@@ -11,7 +11,7 @@ import java.io.IOException;
 public class ItemLocation {
 
     public static double mLat, mLng;
-    String WSDL = "http://192.168.1.7:8080/LocationService/ItemLocationService?wsdl";
+    String WSDL = "http://192.168.43.193:8080/LocationService/ItemLocationService?wsdl";
 
 
     public Locale pickLoc(int id) throws XmlPullParserException, IOException {
