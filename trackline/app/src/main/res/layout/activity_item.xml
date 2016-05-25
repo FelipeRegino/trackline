@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Item"
+        android:id="@+id/textView4"
+        android:layout_marginTop="58dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText9"
+        android:layout_marginTop="92dp"
+        android:text="Código do item"
+        android:layout_below="@+id/textView4"
+        android:layout_alignEnd="@+id/button5" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText10"
+        android:layout_below="@+id/editText9"
+        android:text="Tipo"
+        android:layout_alignEnd="@+id/editText9"
+        android:layout_alignStart="@+id/editText9" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editText11"
+        android:text="Valor"
+        android:layout_below="@+id/editText10"
+        android:layout_alignEnd="@+id/button5" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText12"
+        android:layout_below="@+id/editText11"
+        android:layout_centerHorizontal="true"
+        android:text="Identificador GPS" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alterar"
+        android:id="@+id/button4"
+        android:layout_below="@+id/editText12"
+        android:layout_toStartOf="@+id/textView4"
+        android:layout_marginTop="38dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Localizar"
+        android:id="@+id/button5"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_alignEnd="@+id/editText12" />
+</RelativeLayout>

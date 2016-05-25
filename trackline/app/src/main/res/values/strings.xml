@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">trackline</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_bem_vindo">Bem_vindo</string>
+    <string name="title_activity_lista__locatarios">Lista_Locatarios</string>
+    <string name="title_activity_item">Item</string>
+    <string name="title_activity_amostra__locatario">Amostra_Locatario</string>
+    <string name="title_activity_lista__itens">Lista_Itens</string>
+    <string name="title_activity_maps__location__track">Maps_Location_Track</string>
+    <string name="title_activity_localize">Map</string>
+</resources>
